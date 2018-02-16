@@ -1,0 +1,166 @@
+*{margin:0; padding:0}
+body{font-family:sans-serif}
+.brand h1{color:#fff}
+.nav_bar ul{list-style-type:none;color:#fff;display: inline-flex; font-size: 17px}
+.menu_bar a{text-decoration:none;color:#ffffc7}
+	
+	/* dropdowns */
+	.nav_bar{padding: 10px 0px 0px;}	
+	.menu_bar li{position:relative;}
+	.menu_bar li:hover{background-color:#F54325}
+	.menu_bar li a{display:block}
+	.menu_bar .dropdown li{clear:left; width:160px;height: 0px;}		
+	.dropdown {position:absolute;}
+	ul .dropdown{margin: 20px;    display: none;}
+	.menu_bar li:hover .dropdown{display:block;background-color:#101010;}
+		.hrow{height: 6px;background-color:#F54325 ;}
+		hr{border-style: groove;}
+	
+ a{text-decoration:none;}
+ ul{list-style-type:none;}
+span{color:#ff0022}
+
+.wrapper{margin:0 auto}
+.top_bar{height:70px;background-color:#101010;position:fixed;width:100%}
+.header{width:80%;margin:0 auto}
+.brand{width:40%;float:left}
+.brand_name{margin: 30px;}
+
+/* navigation bar */
+
+.nav_bar{width:60%;float:left}
+.menu_bar li{padding:20px}
+.home{background-color:#F54325}
+.fa.fa-angle-down{display: inline;}
+
+/* background image */
+
+.bg_image img{width: 1350px;height:700px}
+
+	/* CONTAINER */
+
+.container_main{width:80%;margin:0 auto;}
+.sec_head{
+    font-weight: 600;
+    font-size: 36px;
+   text-align:center;
+   margin-top:40px;
+    color: #444444;}
+.sec_sub{	font-weight: 300;
+    color: #666;
+    font-size: 25px;
+    text-align: center;
+	margin-bottom: 0px;}
+	
+		/* section 1 */
+	
+.section{margin:80px}
+ .sec_1, .sec_2, .sec_3, .sec_4{float:left;width:25%;text-align: center;}
+ .section h3{margin:20px;color:#333}
+ .section p{padding:10px;color:#333;  font-size: 13px;line-height: 26px;}
+ .section i{color:#F54325;font-size: 40px;}
+ 
+ .section_2{clear:both;margin:0 auto}
+ .sec2_head{font-weight: 600;font-size: 20px;text-align:center; margin:40px;color: #444444;padding-top: 100px;}
+	.sec2_head i{color:#F54325;font-size: 40px;padding:30px}
+	.portfilo{}
+	.portfilo_list {text-align:center}
+	.portfilo_list li{background-color:#999886;margin-bottom: 10px;padding:6px 12px}
+	.portfilo_list a{color:#d9dcdd}
+	.portfilo ul li{display:inline-block}
+	.portfilo_all{background-color:#f00 !important}
+	.portfilo_list li:hover{background-color:#f54325}
+	/* important is override the color or anything */
+	
+ .img1, .img2, .img3{float:left;padding: 20px;}
+.sec_img img{width:300px}
+.img4, .img5, .img6{float:left;padding: 20px;}
+.sec_img2 img{width:300px}
+
+	.view_portfilo{clear:both;text-align: -webkit-center}
+	.view_portfilo h3{clear:both;text-align:center;border:2px solid #f54325;height: 30px;width: 200px;text-align: center;padding-top: 10px;font-size: initial;}
+	.view_portfilo a{color:#F54325;;font-weight:200}
+	.view_portfilo:hover h3{background-color:#F54325;}
+	.view_portfilo:hover a{color:#fff}
+	/* section 2 */
+	
+	.about_us{width:100%;background-color:rgb(255, 221, 0);width: 1350px;margin: -140px;height:350px}
+	.about_head{width:60%;margin:0 auto;margin-top: 200px;}
+	.about_head i{color:#fff0f0;font-size: 40px;padding: 0px 80px;}
+	.about_head h2{text-align:center;font-size: 2.5em;margin-top:10px;padding: 30px;}
+	.about_head p{margin-top: 50px;text-align:center;line-height: 2em;font-size: small;}
+	.socialicons ul li{width:50px;display:inline;color:white}
+	.socialicons ul li{}
+	.icns li{float:left;padding:10px}
+	.fa.fa-users{color:red;text-align:center;padding: 0px 46%;}
+	/* section 3 */
+	
+.news{margin-top: 200px;}
+.news_head{  font-weight: 600;
+    font-size: 20px;
+   text-align:center;
+   margin-top:40px;
+    color: #444444;}
+	.news_head i{color:#F54325;font-size: 40px;padding:20px}
+.latest_news img{width:300px}
+.latest_news h4,p{padding:10px;}
+	.latest_news p{    text-align: center;
+		font-size: 14px;
+		font-weight: 100;
+		line-height: 22px;
+		color: #333;}
+	
+	/* Footer  */
+	
+	.footer{clear:both;background-color:#363839;height:400px}
+	.footer_menu{width:80%;margin:0 auto;padding:30px}
+	.f1, .f2, .f3, .f4{width:25%;float:left;color:#8C8989}
+	.footer_menu h3{padding-bottom:30px}
+	.footer_menu li{font-size: 12px;line-height: 25px;text-align: start;margin:10px}
+	.f4 i{color:#F54325}
+	.f3 ul li{float:left}
+	.f2 hr{width:60%}
+	
+	.ftitile{clear:both;padding:30px}
+	.fbrand{text-align:center;color:#fff}
+	.crights{text-align:center;color:#8C8989;height: 0px;}
+	
+	/* dropdown llists */
+	
+	.topbtn i{color:#F54325;font-size:60px;position:fixed;right: 20px; bottom: 0px; width: 100px;}
+	
+	
+	
+				/* ABOUT US PAGE */
+	
+	.abtus{width: 40%; padding: 100px;  float: left;color: #766d6d;}
+	.abtus2{width: 40%;  float: left;padding: 180px 0px;color: #766d6d;}
+	.abtus h1, h2{padding:30px}
+	.abtus h2{color: #f89a9a;}
+	.abtus p{text-align: justify; line-height: 30px;}
+	.abtus ul{line-height: 40px; list-style-type: disc;}
+	.abtus2 h2{text-align:center}
+	
+	
+	/* MEDIA QUERYS RWD */
+
+	@media screen and (max-width: 520px) and (min-width: 360px)
+	{
+		body{background-color:}
+		.top_bar{width: 850px;}
+		.nav_bar ul{display:inline}
+		.menu_bar{display:inline}
+		.about_us{width:500px}
+		.bg_image img{width:600px}
+		.section {margin:20px}
+		.footer_menu .f1, .f2, .f3, .f4{height: 300px;float: none;width: 400px;}
+		.footer{height:1400px}
+	}
+		
+	
+	
+	
+	
+	
+	
+
